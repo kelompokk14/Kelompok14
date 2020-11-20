@@ -1,0 +1,41 @@
+<?php
+  
+//class parent
+class hewan {
+  //property class hewan
+  public $nama_saya;
+  
+  //method pada class hewan
+  function berinama ($kucing) {
+      $this->nama_hewan=$kucing; 
+  }
+  
+  
+}
+
+//class turunan atau sub class dari class hewan
+//kita menghubungkan class dengan syntax extends
+class hewan extends hewan {
+  
+   //property class hewan
+   public $nama_hewan;
+   
+   //method pada class hewan
+   function berinama ($teman) {
+      $this->nama_hewan=$hewan; 
+   }
+   
+}
+
+//instansiasi calss hewan
+$malasngoding = new hewan; 
+
+//methodberi nama adalah method pada clasa hewan, tapi kita bisa men
+$malasngoding->berinama(" KUCING ANGGORA") ;
+$malasngoding->berinamahewan(" kucing anggora") ;
+
+//menampilkan isi property
+echo " Nama Hewan :" .$malasngoding->nama_hewan . "<br/>";
+echo "Nama Hewan Saya :" . $malasngoding->nama_hewan;
+
+?>
