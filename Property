@@ -1,0 +1,11 @@
+<?php
+//cara penulisan class dan property OOP PH -@kucing_anggora
+ class hewan {  //class hewan
+      
+    var $warna;  //property warna
+    var $merek;  //property merek
+    var $ukuran; //property ukuran
+
+
+}
+ ?>
