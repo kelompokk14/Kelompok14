@@ -1,0 +1,35 @@
+<?php
+  
+//class hewan
+class hewan{
+     //property
+     var $nama; 
+     var $warna; 
+     
+     //method construct dijalankan pertama kali
+     function_construct () {
+       echo "ini adalah isi method construct <br/>";
+     }
+     
+     //method destruct dijalankan terakhir
+     function_destruct () {
+       echo "ini adalah isi method destruct <br/>";
+     }
+     
+     //method hewan
+     function tampilkan_nama () {
+       return "Nama saya pulung_coding <br/>";
+     }
+     
+     
+}
+//instansiasi class hewan
+$hewan = new hewan () ;
+
+
+//memanggil method tampilkan_nama dari class hewan
+echo $hewan->tampilkan_nama () ;
+  
+  
+  
+ ?>
