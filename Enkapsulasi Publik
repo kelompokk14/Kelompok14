@@ -1,0 +1,22 @@
+<?php
+  
+//class hewan
+class hewan {
+  //prop
+  public $nama; 
+  public $warna;
+  
+  
+  //method hewan
+  function tampilkan_nama () {
+      return "Nama hewan kucing_anggora <br/>";
+  }
+  
+
+}
+//instansiasi class hewan
+$hewan = new hewan () ;
+
+
+//memanggil method tampilkan_nama dari class hewan
+echo $hewan->tampilkan_nama () ;
