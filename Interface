@@ -1,0 +1,17 @@
+<?php
+interface buku{
+   public function klik_kanan();
+   public function klik_kiri();
+}
+
+class buku implements pulpen{
+   public function klik_kanan(){
+     return "Klik Kanan..";
+   }
+}
+
+$buku_baru = new buku();
+// Fatal error: Class buku contains 1 abstract method
+// and must therefore be declared abstract
+// or implement the remaining methods (mouse::klik_kiri)
+ ?>
